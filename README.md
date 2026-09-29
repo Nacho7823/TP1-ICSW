@@ -72,3 +72,9 @@ Qué nos ofrece GitHub para ayudar:
 - Labels, milestone y asignados para organizar el trabajo.
 - Comparación de ramas (`compare`), historial completo, `git blame` y revert con un clic.
 - Protección de ramas: impedir merges sin aprobación y sin historial lineal limpio.
+
+
+## Para tener en cuenta
+El versionado del readme en otra rama no sigue el flujo de gitflow, pero hace que se pueda ver el historial de quien lo cambio
+
+Hicimos dos releases porque notamos un poco confuso en enunciado, asi que preferimos hacer dos releases para que quede mas claro
