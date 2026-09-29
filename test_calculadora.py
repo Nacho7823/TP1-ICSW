@@ -22,7 +22,7 @@ def test_dividir():
 
 
 def test_dividir_por_cero():
-    assert dividir(5, 0) == "Error: no se puede dividir por cero"
+    assert dividir(5, 0) == "Error: no es posible realizar una division por 0"
 
 
 def test_potencia():
