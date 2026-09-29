@@ -1,4 +1,4 @@
-from calculadora import sumar, restar, multiplicar, dividir
+from calculadora import sumar, restar, multiplicar, dividir, potencia, raiz_cuadrada
 
 
 def test_sumar():
@@ -22,4 +22,19 @@ def test_dividir():
 
 
 def test_dividir_por_cero():
-    assert dividir(5, 0) == "Error: no es posible realizar una division por 0"
+
+
+    assert dividir(5, 0) == "Error: no se puede dividir por cero"
+
+
+def test_potencia():
+    assert potencia(2, 3) == 8
+    assert potencia(5, 0) == 1
+    assert potencia(2, -1) == 0.5
+
+
+def test_raiz_cuadrada():
+    assert raiz_cuadrada(9) == 3
+    assert raiz_cuadrada(0) == 0
+    assert raiz_cuadrada(-1) == "Error: no se puede calcular la raíz de un número negativo"
+
