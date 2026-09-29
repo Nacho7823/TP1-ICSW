@@ -26,6 +26,12 @@ def raiz_cuadrada(a):
     return a ** 0.5
 
 
+def residuo(a, b):
+    if b == 0:
+        return "Error: no es posible realizar una division por 0"
+    return a % b
+
+
 def calculadora():
     print("=== CALCULADORA BASICA ===")
 
@@ -36,15 +42,16 @@ def calculadora():
         print("4. Dividir")
         print("5. Potencia")
         print("6. Raíz cuadrada")
-        print("7. Salir")
+        print("7. Residuo")
+        print("8. Salir")
 
         opcion = input("Seleccione una opción: ")
 
-        if opcion == "7":
+        if opcion == "8":
             print("Hasta luego.")
             break
 
-        if opcion not in ("1", "2", "3", "4", "5", "6"):
+        if opcion not in ("1", "2", "3", "4", "5", "6", "7"):
             print("Opción inválida.")
             continue
 
@@ -68,8 +75,10 @@ def calculadora():
             resultado = multiplicar(a, b)
         elif opcion == "4":
             resultado = dividir(a, b)
-        else:
+        elif opcion == "5":
             resultado = potencia(a, b)
+        else:
+            resultado = residuo(a, b)
 
         print(f"\nResultado:\n{resultado}")
 
