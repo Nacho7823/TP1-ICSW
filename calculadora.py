@@ -12,12 +12,12 @@ def multiplicar(a, b):
 
 def dividir(a, b):
     if b == 0:
-        return "Error: no se puede dividir por cero"
+        return "Error: no es posible realizar una division por 0"
     return a / b
 
 
 def calculadora():
-    print("=== CALCULADORA ===")
+    print("=== CALCULADORA BASICA ===")
 
     while True:
         print("\n1. Sumar")
