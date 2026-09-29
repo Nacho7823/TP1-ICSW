@@ -75,6 +75,10 @@ Qué nos ofrece GitHub para ayudar:
 
 
 ## Para tener en cuenta
-El versionado del readme en otra rama no sigue el flujo de gitflow, pero hace que se pueda ver el historial de quien lo cambio
+* El versionado del readme en otra rama no sigue el flujo de gitflow, pero hace que se pueda ver el historial de quien lo cambio
+* Hicimos dos releases porque notamos un poco confuso en enunciado, asi que preferimos hacer dos releases para que quede mas claro
 
-Hicimos dos releases porque notamos un poco confuso en enunciado, asi que preferimos hacer dos releases para que quede mas claro
+* En el primer release nos falto un cero(v1.0, en verdad es v1.0.0)
+
+
+* Puede que haya otro error que no nos dimos cuenta :)
