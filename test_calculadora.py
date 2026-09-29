@@ -22,6 +22,8 @@ def test_dividir():
 
 
 def test_dividir_por_cero():
+
+
     assert dividir(5, 0) == "Error: no se puede dividir por cero"
 
 
@@ -35,3 +37,4 @@ def test_raiz_cuadrada():
     assert raiz_cuadrada(9) == 3
     assert raiz_cuadrada(0) == 0
     assert raiz_cuadrada(-1) == "Error: no se puede calcular la raíz de un número negativo"
+
