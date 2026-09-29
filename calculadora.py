@@ -80,7 +80,7 @@ def calculadora():
         else:
             resultado = residuo(a, b)
 
-        print(f"================\nResultado:\n{resultado}")
+        print(f"\nResultado:\n{resultado}")
 
 
 if __name__ == "__main__":
