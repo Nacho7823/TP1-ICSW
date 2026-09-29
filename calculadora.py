@@ -71,7 +71,7 @@ def calculadora():
         else:
             resultado = potencia(a, b)
 
-        print(f"Resultado: {resultado}")
+        print(f"\nResultado:\n{resultado}")
 
 
 if __name__ == "__main__":
