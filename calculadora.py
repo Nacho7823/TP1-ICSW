@@ -52,7 +52,7 @@ def calculadora():
         else:
             resultado = dividir(a, b)
 
-        print(f"Resultado: {resultado}")
+        print(f"\nResultado:\n{resultado}")
 
 
 if __name__ == "__main__":
